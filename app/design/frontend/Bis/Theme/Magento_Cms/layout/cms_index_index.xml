@@ -11,6 +11,7 @@
         <link defer="" src="Magento_Cms::css/commercial-appeal.css" />
         <link defer="" src="Magento_Cms::css/bets-sellers.css" />
         <link defer="" src="Magento_Catalog::css/list-products.css" />
+
     </head>
     <body>
         <referenceContainer name="page.top">
