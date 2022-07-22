@@ -1,0 +1,1 @@
+/var/www/html/magento/teste-bis/vendor/magento/theme-adminhtml-backend/web/js/theme.js

@@ -1,0 +1,25 @@
+<section class="carousel">
+    <!-- Magento\Cms\Block\Block -->
+    <!-- carousel_top -->
+
+    <?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('carousel_top')->toHtml(); ?>
+
+    <!-- rodar slick -->
+    <script>
+        require([
+            'jquery',
+            'slick'
+        ], function($) {
+            $(function() {
+                $('.carousel-top').not('.slick-initialized').slick({
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 1,
+                    arrows: true,
+                    autoplay: false,
+                    autoplaySpeed: 2000,
+                });
+            });
+        });
+    </script>
+</section>

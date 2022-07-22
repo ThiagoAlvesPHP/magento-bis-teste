@@ -1,0 +1,1 @@
+/var/www/html/magento/teste-bis/vendor/magento/module-cms/view/adminhtml/web/js/folder-tree.js

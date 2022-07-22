@@ -1,0 +1,1 @@
+/var/www/html/magento/teste-bis/vendor/magento/module-adobe-ims/view/adminhtml/web/js/signIn.js

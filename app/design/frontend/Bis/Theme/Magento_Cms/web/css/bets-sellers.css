@@ -1,0 +1,29 @@
+.bets-sellers .top {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.bets-sellers .top .title {
+    text-transform: uppercase;
+    font-weight: revert;
+    font-size: 25px;
+    transform: scaleY(1.5);
+    color: #1d182d;
+}
+
+.bets-sellers .top .left {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bets-sellers .top .left .bets {
+    color: black;
+    text-decoration: none;
+}
+.bets-sellers .top .left i {
+    margin-left: 5px;
+    color: #44c0b7 !important;
+}
