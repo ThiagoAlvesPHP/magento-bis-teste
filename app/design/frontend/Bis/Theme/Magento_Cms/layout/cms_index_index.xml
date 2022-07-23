@@ -7,10 +7,6 @@
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-        <link defer="" src="Magento_Cms::css/carousel-top.css" />
-        <link defer="" src="Magento_Cms::css/commercial-appeal.css" />
-        <link defer="" src="Magento_Cms::css/bets-sellers.css" />
-        <link defer="" src="Magento_Catalog::css/list-products.css" />
 
     </head>
     <body>

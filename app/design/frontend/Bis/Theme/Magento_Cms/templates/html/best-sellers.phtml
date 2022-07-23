@@ -8,15 +8,21 @@
     </div>
 
     <div class="list-products">
-
+        <?php for ($i=0; $i < 4; $i++): ?>
         <div class="card">
             <div class="image">
                 <div class="discount">
                     <span class="value-discount">20%</span>
                     <span class="text">Off!</span>
                 </div>
-                <img src="<?=$this->getViewFileUrl('Magento_Cms::images/1.png'); ?>" alt="Image">
-                <img style="display: none;" src="<?=$this->getViewFileUrl('Magento_Cms::images/1.hover.png'); ?>" alt="Image">
+                <div class="promotion">
+                    <span class="text">Promoção</span>
+                </div>
+                <div class="outlet">
+                    <span class="text">Outlet</span>
+                </div>
+                <img class="img" src="<?=$this->getViewFileUrl('Magento_Cms::images/1.png'); ?>" alt="Image">
+                <img class="img-hover" style="display: none;" src="<?=$this->getViewFileUrl('Magento_Cms::images/1.hover.png'); ?>" alt="Image">
             </div>
             <div class="description">
                 <div class="start">
@@ -32,86 +38,67 @@
                     <span class="price-new">R$ 150,00</span>
                 </div>
                 <p class="sub-title">em até <b>6x</b> de <b>R$ 25,00</b> no cartão</p>
+
+                <a href="#" class="link">Comprar</a>
             </div>
         </div>
-
-        <div class="card">
-            <div class="image">
-                <div class="discount">
-                    <span class="value-discount">20%</span>
-                    <span class="text">Off!</span>
-                </div>
-                <img src="<?=$this->getViewFileUrl('Magento_Cms::images/1.png'); ?>" alt="Image">
-                <img style="display: none;" src="<?=$this->getViewFileUrl('Magento_Cms::images/1.hover.png'); ?>" alt="Image">
-            </div>
-            <div class="description">
-                <div class="start">
-                    <i class="fas fa-star enable"></i>
-                    <i class="fas fa-star enable"></i>
-                    <i class="fas fa-star enable"></i>
-                    <i class="fas fa-star desable"></i>
-                    <i class="fas fa-star desable"></i>
-                </div>
-                <p class="title">Tênis Adidas Originais Multix</p>
-                <div class="prices">
-                    <small class="price-old">R$ 166,00</small>
-                    <span class="price-new">R$ 150,00</span>
-                </div>
-                <p class="sub-title">em até <b>6x</b> de <b>R$ 25,00</b> no cartão</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="image">
-                <div class="discount">
-                    <span class="value-discount">20%</span>
-                    <span class="text">Off!</span>
-                </div>
-                <img src="<?=$this->getViewFileUrl('Magento_Cms::images/1.png'); ?>" alt="Image">
-                <img style="display: none;" src="<?=$this->getViewFileUrl('Magento_Cms::images/1.hover.png'); ?>" alt="Image">
-            </div>
-            <div class="description">
-                <div class="start">
-                    <i class="fas fa-star enable"></i>
-                    <i class="fas fa-star enable"></i>
-                    <i class="fas fa-star enable"></i>
-                    <i class="fas fa-star desable"></i>
-                    <i class="fas fa-star desable"></i>
-                </div>
-                <p class="title">Tênis Adidas Originais Multix</p>
-                <div class="prices">
-                    <small class="price-old">R$ 166,00</small>
-                    <span class="price-new">R$ 150,00</span>
-                </div>
-                <p class="sub-title">em até <b>6x</b> de <b>R$ 25,00</b> no cartão</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="image">
-                <div class="discount">
-                    <span class="value-discount">20%</span>
-                    <span class="text">Off!</span>
-                </div>
-                <img src="<?=$this->getViewFileUrl('Magento_Cms::images/1.png'); ?>" alt="Image">
-                <img style="display: none;" src="<?=$this->getViewFileUrl('Magento_Cms::images/1.hover.png'); ?>" alt="Image">
-            </div>
-            <div class="description">
-                <div class="start">
-                    <i class="fas fa-star enable"></i>
-                    <i class="fas fa-star enable"></i>
-                    <i class="fas fa-star enable"></i>
-                    <i class="fas fa-star desable"></i>
-                    <i class="fas fa-star desable"></i>
-                </div>
-                <p class="title">Tênis Adidas Originais Multix</p>
-                <div class="prices">
-                    <small class="price-old">R$ 166,00</small>
-                    <span class="price-new">R$ 150,00</span>
-                </div>
-                <p class="sub-title">em até <b>6x</b> de <b>R$ 25,00</b> no cartão</p>
-            </div>
-        </div>
-
+        <?php endfor; ?>
     </div>
+    <div class="list-products">
+        <?php for ($i=0; $i < 4; $i++): ?>
+        <div class="card">
+            <div class="image">
+                <div class="discount">
+                    <span class="value-discount">20%</span>
+                    <span class="text">Off!</span>
+                </div>
+                <div class="promotion">
+                    <span class="text">Promoção</span>
+                </div>
+                <div class="outlet">
+                    <span class="text">Outlet</span>
+                </div>
+                <img class="img" src="<?=$this->getViewFileUrl('Magento_Cms::images/1.png'); ?>" alt="Image">
+                <img class="img-hover" style="display: none;" src="<?=$this->getViewFileUrl('Magento_Cms::images/1.hover.png'); ?>" alt="Image">
+            </div>
+            <div class="description">
+                <div class="start">
+                    <i class="fas fa-star enable"></i>
+                    <i class="fas fa-star enable"></i>
+                    <i class="fas fa-star enable"></i>
+                    <i class="fas fa-star desable"></i>
+                    <i class="fas fa-star desable"></i>
+                </div>
+                <p class="title">Tênis Adidas Originais Multix</p>
+                <div class="prices">
+                    <small class="price-old">R$ 166,00</small>
+                    <span class="price-new">R$ 150,00</span>
+                </div>
+                <p class="sub-title">em até <b>6x</b> de <b>R$ 25,00</b> no cartão</p>
+
+                <a href="#" class="link">Comprar</a>
+            </div>
+        </div>
+        <?php endfor; ?>
+    </div>
+
 </section>
+
+<script>
+    require([
+        'jquery'
+    ], function($) {
+        $(function() {
+            $(document).on('mouseover', '.list-products .card', function() {
+                $(this).find('.description .link').css('display', 'flex');
+                $(this).find('.image .img').css('display', 'none');
+                $(this).find('.image .img-hover').css('display', 'block');
+            });
+            $(document).on('mouseout', '.list-products .card', function() {
+                $(this).find('.description .link').css('display', 'none');
+                $(this).find('.image .img').css('display', 'block');
+                $(this).find('.image .img-hover').css('display', 'none');
+            });
+        });
+    });
+</script>

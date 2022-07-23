@@ -1,0 +1,1 @@
+/var/www/html/magento/teste-bis/vendor/magento/module-captcha/view/frontend/web/js/view/checkout/defaultCaptcha.js

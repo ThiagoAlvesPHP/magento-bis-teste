@@ -1,8 +1,0 @@
-.list-products {
-    display: flex;
-    flex-direction: row;
-}
-
-.list-products .card {
-    flex: 1;
-}
