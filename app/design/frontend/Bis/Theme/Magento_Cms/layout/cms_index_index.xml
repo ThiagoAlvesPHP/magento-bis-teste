@@ -16,5 +16,11 @@
         <referenceContainer name="main">
             <block class="Magento\Framework\View\Element\Template" name="main.css.file" template="Magento_Cms::html/container.phtml" />
         </referenceContainer>
+        <referenceContainer name="page.bottom.container">
+            <block class="Magento\Framework\View\Element\Template" name="newsletter" template="Magento_Cms::html/newsletter.phtml" />
+        </referenceContainer>
+        <referenceContainer name="footer-container">
+            <block class="Magento\Theme\Block\Html\Header\Logo" name="footer" template="Magento_Cms::html/footer.phtml" />
+        </referenceContainer>
     </body>
 </page>

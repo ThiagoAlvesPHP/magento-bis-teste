@@ -5,9 +5,4 @@
         <link defer="" src="css/slick-theme.css" />
         <link src="css/fontawesome/css/all.css" />
     </head>
-    <body>
-        <referenceContainer name="before.body.end">
-            <block class="Magento\Framework\View\Element\Template" name="beforebodyend.css.file" template="Magento_Theme::html/before_body_end.phtml" />
-        </referenceContainer>
-    </body>
 </page>
