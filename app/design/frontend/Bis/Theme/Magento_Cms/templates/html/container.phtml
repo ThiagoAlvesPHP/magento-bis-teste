@@ -1,0 +1,62 @@
+<section class="container">
+    <div class="titles">
+        <h1 class="title">Mais Vendidos</h1>
+        <div class="left">
+            <a href="#" class="bets">ver mais produtos</a>
+            <i class="fas fa-plus"></i>
+        </div>
+    </div>
+
+    <?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('list-products')->toHtml(); ?>
+    <?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('list-products')->toHtml(); ?>
+
+    <div class="banner">
+        <img class="img" src="<?= $this->getViewFileUrl('Magento_Cms::images/bannerA.png'); ?>" alt="Banner" />
+    </div>
+
+    <div class="titles">
+        <h1 class="title">Novidades</h1>
+        <div class="left">
+            <a href="#" class="bets">ver mais produtos</a>
+            <i class="fas fa-plus"></i>
+        </div>
+    </div>
+
+    <?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('list-products')->toHtml(); ?>
+    <?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('list-products')->toHtml(); ?>
+
+    <div class="banner">
+        <img class="img" src="<?= $this->getViewFileUrl('Magento_Cms::images/bannerB.png'); ?>" alt="Banner" />
+    </div>
+
+    <div class="titles">
+        <h1 class="title">Promoções</h1>
+        <div class="left">
+            <a href="#" class="bets">ver mais produtos</a>
+            <i class="fas fa-plus"></i>
+        </div>
+    </div>
+
+    <?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('list-products')->toHtml(); ?>
+    <?php echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('list-products')->toHtml(); ?>
+
+</section>
+
+<script defer="">
+    require([
+        'jquery'
+    ], function($) {
+        $(function() {
+            $(document).on('mouseover', '.list-products .card', function() {
+                $(this).find('.description .link').css('display', 'flex');
+                $(this).find('.image .img').css('display', 'none');
+                $(this).find('.image .img-hover').css('display', 'block');
+            });
+            $(document).on('mouseout', '.list-products .card', function() {
+                $(this).find('.description .link').css('display', 'none');
+                $(this).find('.image .img').css('display', 'block');
+                $(this).find('.image .img-hover').css('display', 'none');
+            });
+        });
+    });
+</script>

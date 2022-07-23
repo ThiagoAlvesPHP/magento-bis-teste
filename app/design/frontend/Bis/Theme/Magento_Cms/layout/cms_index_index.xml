@@ -14,7 +14,7 @@
             <block class="Magento\Framework\View\Element\Template" name="pagetop.css.file" template="Magento_Cms::html/carousel.phtml" />
         </referenceContainer>
         <referenceContainer name="main">
-            <block class="Magento\Framework\View\Element\Template" name="main.css.file" template="Magento_Cms::html/best-sellers.phtml" />
+            <block class="Magento\Framework\View\Element\Template" name="main.css.file" template="Magento_Cms::html/container.phtml" />
         </referenceContainer>
     </body>
 </page>

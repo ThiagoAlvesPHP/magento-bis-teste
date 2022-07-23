@@ -15233,19 +15233,19 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
   text-transform: uppercase;
   font-weight: bold;
 }
-.bets-sellers .top {
+.container .titles {
   display: flex;
   justify-content: center;
   position: relative;
 }
-.bets-sellers .top .title {
+.container .titles .title {
   text-transform: uppercase;
   font-weight: revert;
   font-size: 25px;
   transform: scaleY(1.5);
   color: #1d182d;
 }
-.bets-sellers .top .left {
+.container .titles .left {
   position: absolute;
   right: 0;
   top: 20px;
@@ -15253,11 +15253,17 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
   justify-content: center;
   align-items: center;
 }
-.bets-sellers .top .left .bets {
+.container .titles .left .bets {
   color: black;
   text-decoration: none;
 }
-.bets-sellers .top .left i {
+.container .titles .left i {
   margin-left: 5px;
   color: #44c0b7 !important;
+}
+.container .banner {
+  margin-bottom: 40px;
+}
+.container .banner .img {
+  width: 100%;
 }
