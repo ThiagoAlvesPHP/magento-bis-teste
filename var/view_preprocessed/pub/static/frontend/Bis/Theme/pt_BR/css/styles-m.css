@@ -15314,6 +15314,7 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
 }
 .page-bottom .newsletter .container .description p .text {
   color: #72bf44;
+  font-weight: bold;
 }
 .page-bottom .newsletter .container .form {
   flex: 6;
@@ -15346,6 +15347,9 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 16px;
+}
+.page-footer {
+  padding-bottom: unset;
 }
 .page-footer .footer {
   background: #1d182d;
@@ -15397,10 +15401,46 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
 }
 .page-footer .footer .social .social a {
   font-size: 50px;
-  color: #72bf44;
+  color: #44c0b7;
   margin-right: 5px;
   text-decoration: none;
 }
 .page-footer .footer .social .social a:last-child {
   margin-right: 0;
+}
+.footer-end {
+  display: flex;
+  justify-content: center;
+}
+.footer-end .row {
+  max-width: 1280px;
+  width: 100%;
+  padding: 20px 0;
+}
+.footer-end .row .payment {
+  display: flex;
+  margin-bottom: 20px;
+}
+.footer-end .row .payment .col {
+  flex: 1;
+  margin-right: 30px;
+}
+.footer-end .row .payment .col:last-child {
+  margin-right: 0;
+}
+.footer-end .row .payment .col .images img {
+  width: 45px;
+  height: 30px;
+  margin-right: 5px;
+}
+.footer-end .row .address {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.footer-end .row .appeal {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.footer-end .row .appeal img {
+  width: 100px;
 }

@@ -22,5 +22,8 @@
         <referenceContainer name="footer-container">
             <block class="Magento\Theme\Block\Html\Header\Logo" name="footer" template="Magento_Cms::html/footer.phtml" />
         </referenceContainer>
+        <referenceContainer name="before.body.end">
+            <block class="Magento\Framework\View\Element\Template" name="footer-end" template="Magento_Cms::html/footer-end.phtml" />
+        </referenceContainer>
     </body>
 </page>
