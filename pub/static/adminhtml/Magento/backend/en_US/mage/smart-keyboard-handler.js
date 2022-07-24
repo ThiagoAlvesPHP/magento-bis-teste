@@ -1,0 +1,1 @@
+/var/www/html/magento/teste-bis/lib/web/mage/smart-keyboard-handler.js
