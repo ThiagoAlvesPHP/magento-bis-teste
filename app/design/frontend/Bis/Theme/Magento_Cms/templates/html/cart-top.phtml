@@ -1,0 +1,91 @@
+<div class="cart-top">
+    <div class="container">
+        <div class="header">
+            <i class="fas fa-times close"></i>
+            <p class="text">Carrinho (2)</p>
+        </div>
+        <div class="content">
+            <!-- list products -->
+            <div class="product">
+                <div class="qt">
+                    <button class="qt">+</button>
+                    <p class="qt-text">01</p>
+                    <button class="qt">-</button>
+                </div>
+                <div class="img-product">
+                    <div class="image">
+                        <img class="img" src="<?= $this->getViewFileUrl('Magento_Cms::images/cart-a.png'); ?>" alt="Banner" />
+                    </div>
+                </div>
+                <div class="description-product">
+                    <p class="title">Tênis Adidas Originais Multix</p>
+                    <p class="price">R$ 150,00</p>
+                    <p class="qt">Qtda: 01</p>
+                </div>
+                <div class="close"><i class="fas fa-times"></i></div>
+            </div>
+            <hr class="division">
+            <div class="product">
+                <div class="qt">
+                    <button class="qt">+</button>
+                    <p class="qt-text">01</p>
+                    <button class="qt">-</button>
+                </div>
+                <div class="img-product">
+                    <div class="image">
+                        <img class="img" src="<?= $this->getViewFileUrl('Magento_Cms::images/cart-b.png'); ?>" alt="Banner" />
+                    </div>
+                </div>
+                <div class="description-product">
+                    <p class="title">Off-White Diag Zip Check Shirt</p>
+                    <p class="price">R$ 150,00</p>
+                    <p class="qt">Qtda: 01</p>
+                </div>
+                <div class="close"><i class="fas fa-times"></i></div>
+            </div>
+            <hr class="division">
+            <!-- end list products -->
+
+            <!-- description cart -->
+            <div class="description">
+                <hr class="division">
+                <div class="sub-amount row">
+                    <p class="text">Subtotal</p>
+                    <p class="value">R$ 300,00</p>
+                </div>
+                <hr class="division">
+                <div class="frete row">
+                    <input type="text" placeholder="Digite o CEP" class="input">
+                    <button class="btn">Calcular</button>
+                </div>
+                <hr class="division">
+                <div class="cupom row">
+                    <input type="text" placeholder="Digite o Cupom" class="input">
+                    <button class="btn">Aplicar</button>
+                </div>
+                <hr class="division">
+                <div class="amount row">
+                    <p class="text">Total a Pagar</p>
+                    <p class="value">R$ 300,00</p>
+                </div>
+                <a href="#" class="link-cart">Ir para o pagamento</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script defer="">
+    require([
+        'jquery'
+    ], function($) {
+        $(function() {
+            $(document).on('click', '.cart-top .header  .close', function() {
+                $('.cart-top').css('display', 'none');
+            });
+            $(document).on('click', '.header-top .cart', function() {
+                $('.cart-top').css('display', 'block');
+            });
+        });
+    });
+</script>

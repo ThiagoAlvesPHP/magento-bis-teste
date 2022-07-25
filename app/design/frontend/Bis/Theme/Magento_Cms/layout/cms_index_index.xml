@@ -12,6 +12,9 @@
     <body>
         <referenceContainer name="header.container">
             <block class="Magento\Theme\Block\Html\Header\Logo" name="header.top" template="Magento_Cms::html/header-top.phtml" />
+            <block class="Magento\Framework\View\Element\Template" name="navbar.top" template="Magento_Cms::html/navbar.phtml" after="header.top" />
+
+            <block class="Magento\Framework\View\Element\Template" name="cart.top" template="Magento_Cms::html/cart-top.phtml" />
         </referenceContainer>
 
         <referenceContainer name="page.top">
