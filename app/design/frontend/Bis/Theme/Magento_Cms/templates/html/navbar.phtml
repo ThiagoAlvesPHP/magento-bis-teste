@@ -58,10 +58,10 @@
             });
 
             $('.navbar .sub-menu').on("mousemove", function( event ) {
-                // $('.sub-menu').css('display', 'block');
+                $('.sub-menu').before().css('display', 'block');
                 $('.menu-list').css('display', 'flex');
             });
-            $('.navbar .sub-menu .menu-list').on("mouseout", function( event ) {
+            $('.navbar .sub-menu .menu-list, .header-top, .carousel-top').on("mouseout", function( event ) {
                 $('.menu-list').css('display', 'none');
             });
         });
