@@ -1,1 +1,0 @@
-/var/www/html/magento/teste-bis/lib/web/knockoutjs/knockout-es5.js

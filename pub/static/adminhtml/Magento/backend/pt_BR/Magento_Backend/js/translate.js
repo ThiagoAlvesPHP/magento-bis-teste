@@ -1,1 +1,0 @@
-/var/www/html/magento/teste-bis/vendor/magento/module-backend/view/adminhtml/web/js/translate.js

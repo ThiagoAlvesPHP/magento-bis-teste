@@ -10,6 +10,10 @@
 
     </head>
     <body>
+        <referenceContainer name="header.container">
+            <block class="Magento\Theme\Block\Html\Header\Logo" name="header.top" template="Magento_Cms::html/header-top.phtml" />
+        </referenceContainer>
+
         <referenceContainer name="page.top">
             <block class="Magento\Framework\View\Element\Template" name="pagetop.css.file" template="Magento_Cms::html/carousel.phtml" />
         </referenceContainer>

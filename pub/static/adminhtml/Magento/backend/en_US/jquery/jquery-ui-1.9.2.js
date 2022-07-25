@@ -1,1 +1,0 @@
-/var/www/html/magento/teste-bis/lib/web/jquery/jquery-ui-1.9.2.js

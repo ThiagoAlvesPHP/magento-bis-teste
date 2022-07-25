@@ -15444,3 +15444,97 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
 .footer-end .row .appeal img {
   width: 100px;
 }
+.page-header {
+  z-index: 1;
+  height: 200px;
+}
+.page-header .header-top {
+  height: 100%;
+  background: #1d182d;
+  display: flex;
+  justify-content: center;
+}
+.page-header .header-top .container {
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #FFF;
+}
+.page-header .header-top .container .logo {
+  flex: 2;
+}
+.page-header .header-top .container .logo .link .img {
+  width: 100%;
+  margin-top: 100px;
+}
+.page-header .header-top .container .items {
+  flex: 8;
+  display: flex;
+  align-items: center;
+}
+.page-header .header-top .container .items .col {
+  flex: 1;
+}
+.page-header .header-top .container .items .customer,
+.page-header .header-top .container .items .contact,
+.page-header .header-top .container .items .cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.page-header .header-top .container .items .customer .icon i,
+.page-header .header-top .container .items .contact .icon i,
+.page-header .header-top .container .items .cart .icon i {
+  font-size: 35px;
+  color: #44c0b7;
+}
+.page-header .header-top .container .items .customer .actions .text {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.page-header .header-top .container .items .customer .actions .text .link {
+  color: #72bf44;
+  text-decoration: none;
+}
+.page-header .header-top .container .items .search {
+  flex: 2;
+  display: flex;
+  position: relative;
+}
+.page-header .header-top .container .items .search .input {
+  height: 40px;
+  border-radius: 5px;
+}
+.page-header .header-top .container .items .search .btn-search {
+  position: absolute;
+  right: 0;
+  background: #FFF;
+  border: 0;
+  height: 40px;
+  border-radius: 5px;
+}
+.page-header .header-top .container .items .search .btn-search i {
+  color: #44c0b7;
+  font-size: 20px;
+  transform: scaleX(-1);
+}
+.page-header .header-top .container .items .contact .description .text {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.page-header .header-top .container .items .contact .description .link {
+  color: #72bf44;
+  text-decoration: none;
+  font-weight: 700;
+}
+.page-header .header-top .container .items .cart .description .text {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.page-header .header-top .container .items .cart .description .qt {
+  color: #72bf44;
+}

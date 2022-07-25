@@ -1,0 +1,120 @@
+.page-header {
+    z-index: 1;
+    height: 200px;
+
+    .header-top {
+        height: 100%;
+        background: #1d182d;
+        display: flex;
+        justify-content: center;
+
+        .container {
+            max-width: 1280px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            color: #FFF;
+
+            .logo {
+                flex: 2;
+
+                .link {
+                    .img {
+                        width: 100%;
+                        margin-top: 100px;
+                    }
+                }
+            }
+            .items {
+                flex: 8;
+                display: flex;
+                align-items: center;
+
+                .col {
+                    flex: 1;
+                }
+
+                .customer, .contact, .cart {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+
+                    .icon {
+                        i {
+                            font-size: 35px;
+                            color: #44c0b7;
+                        }
+                    }
+                }
+
+                .customer {
+                    .actions {
+                        .text {
+                            margin: 0;
+                            text-transform: uppercase;
+                            font-weight: 700;
+
+                            .link {
+                                color: #72bf44;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+                .search {
+                    flex: 2;
+                    display: flex;
+                    position: relative;
+
+                    .input {
+                        height: 40px;
+                        border-radius: 5px;
+                    }
+
+                    .btn-search {
+                        position: absolute;
+                        right: 0;
+                        background: #FFF;
+                        border: 0;
+                        height: 40px;
+                        border-radius: 5px;
+
+                        i {
+                            color: #44c0b7;
+                            font-size: 20px;
+                            transform: scaleX(-1);
+                        }
+                    }
+                }
+
+                .contact {
+                    .description {
+                        .text {
+                            margin: 0;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                        }
+                        .link {
+                            color: #72bf44;
+                            text-decoration: none;
+                            font-weight: 700;
+                        }
+                    }
+                }
+
+                .cart {
+                    .description {
+                        .text {
+                            margin: 0;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                        }
+                        .qt {
+                            color: #72bf44;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

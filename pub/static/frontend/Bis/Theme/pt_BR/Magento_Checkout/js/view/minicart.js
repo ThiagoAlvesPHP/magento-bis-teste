@@ -1,1 +1,0 @@
-/var/www/html/magento/teste-bis/vendor/magento/module-checkout/view/frontend/web/js/view/minicart.js

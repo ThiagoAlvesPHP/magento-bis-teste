@@ -5,4 +5,15 @@
         <link defer="" src="css/slick-theme.css" />
         <link src="css/fontawesome/css/all.css" />
     </head>
+    <body>
+        <referenceContainer name="header-wrapper">
+            <referenceBlock name="navigation.sections" remove="true" />
+        </referenceContainer>
+        <referenceContainer name="header.container">
+            <referenceBlock name="header-wrapper" remove="true" />
+        </referenceContainer>
+        <referenceContainer name="header.container">
+            <referenceBlock name="header.panel" remove="true" />
+        </referenceContainer>
+    </body>
 </page>

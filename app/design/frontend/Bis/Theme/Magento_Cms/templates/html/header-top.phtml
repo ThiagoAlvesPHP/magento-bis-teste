@@ -1,0 +1,49 @@
+<section class="header-top">
+    <div class="container">
+        <div class="logo">
+            <a href="#" class="link">
+                <img
+                    class="img"
+                    src="<?= $block->escapeUrl($block->getLogoSrc()) ?>"
+                    title="<?= $block->escapeHtmlAttr($block->getLogoAlt()) ?>"
+                    alt="<?= $block->escapeHtmlAttr($block->getLogoAlt()) ?>"
+                />
+            </a>
+        </div>
+        <div class="items">
+            <div class="customer col">
+                <div class="icon">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="actions">
+                    <p class="text">Faça <a href="#" class="link">Login</a></p>
+                    <p class="text">Ou <a href="#" class="link">Cadastre-se</a></p>
+                </div>
+            </div>
+            <div class="search col">
+                <input type="search" class="input" placeholder="digite aqui sua pesquisa">
+                <button class="btn-search">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="contact col">
+                <div class="icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="description">
+                    <p class="text">Atentimento</p>
+                    <a href="phone:21980968124" class="link">21 9 8096-8124</a>
+                </div>
+            </div>
+            <div class="cart col">
+                <div class="icon">
+                    <i class="fas fa-shopping-bag"></i>
+                </div>
+                <div class="description">
+                    <p class="text">Minha sacola</p>
+                    <p class="text qt">02 | itens</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
