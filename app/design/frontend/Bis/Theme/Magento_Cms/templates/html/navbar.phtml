@@ -39,12 +39,11 @@
     ], function($) {
         $(function() {
             $(document).on("mousemove", function( event ) {
-                $('.navbar').css('display', 'flex');
-                // if (event.pageY < 600) {
-                //     $('.navbar').css('display', 'flex');
-                // } else {
-                //     $('.navbar').css('display', 'none');
-                // }
+                if (event.pageY < 600) {
+                    $('.navbar').css('display', 'flex');
+                } else {
+                    $('.navbar').css('display', 'none');
+                }
             });
 
             $(window).scroll(function(){
