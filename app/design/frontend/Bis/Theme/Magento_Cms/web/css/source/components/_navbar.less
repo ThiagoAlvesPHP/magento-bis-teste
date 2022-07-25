@@ -1,6 +1,6 @@
 .navbar {
     background: #252158;
-    display: flex;
+    display: none;
     justify-content: center;
 
     .container {
@@ -30,6 +30,51 @@
                     font-weight: 700;
                     color: #72bf44;
                     text-decoration: none;
+                }
+            }
+
+            .sub-menu {
+                position: relative;
+
+                &::before {
+                    display: none;
+                    content: url('Magento_Cms::images/seta.png');
+                    position: absolute;
+                    top: 38px;
+                    z-index: 1;
+                    left: 16px;
+                }
+
+                .menu-list {
+                    display: none;
+                    position: absolute;
+                    width: 1050px;
+                    height: 300px;
+                    background: #FFF;
+                    top: 38px;
+                    left: -40px;
+                    padding: 15px;
+
+                    .col {
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 20px;
+
+                        .link {
+                            font-size: 14px;
+                            color: #000;
+                            font-weight: unset;
+                            text-transform: capitalize;
+                            margin-bottom: 15px;
+                        }
+                    }
+
+                    .banner {
+                        flex: 2;
+                        padding: 0;
+                        margin: 0;
+                    }
                 }
             }
         }

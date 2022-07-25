@@ -2,10 +2,67 @@
     <div class="container">
         <div class="division"></div>
         <ul class="links">
-            <li class="navs"><a href="" class="link">Roupas</a></li>
+            <li class="navs sub-menu">
+                <a href="" class="link">Roupas</a>
+                <div class="menu-list">
+                    <div class="col">
+                        <a href="" class="link">Bermuda</a>
+                        <a href="" class="link">Blusa</a>
+                        <a href="" class="link">Calça</a>
+                        <a href="" class="link">Conjunto</a>
+                        <a href="" class="link">Jogger</a>
+                        <a href="" class="link">Camisa</a>
+                    </div>
+                    <div class="col">
+                        <a href="" class="link">Camiseta</a>
+                        <a href="" class="link">Colete</a>
+                        <a href="" class="link">Regata</a>
+                        <a href="" class="link">Jaqueta</a>
+                        <a href="" class="link">Moletom</a>
+                        <a href="" class="link">Shorts</a>
+                    </div>
+                    <div class="col banner">
+                        <img class="img" src="<?= $this->getViewFileUrl('Magento_Cms::images/image.png'); ?>" alt="Banner" />
+                    </div>
+                </div>
+            </li>
             <li class="navs"><a href="" class="link">Tênis</a></li>
             <li class="navs"><a href="" class="link">Vestuário Masculino</a></li>
             <li class="navs"><a href="" class="link">Vestuário Feminino</a></li>
         </ul>
     </div>
 </nav>
+
+<script defer="">
+    require([
+        'jquery'
+    ], function($) {
+        $(function() {
+            $(document).on("mousemove", function( event ) {
+                $('.navbar').css('display', 'flex');
+                // if (event.pageY < 600) {
+                //     $('.navbar').css('display', 'flex');
+                // } else {
+                //     $('.navbar').css('display', 'none');
+                // }
+            });
+
+            $(window).scroll(function(){
+                if ($('.navbar').offset().top >= 250) {
+                    $('.header-top').css('position', 'fixed');
+                    $('.header-top').css('right', '0');
+                    $('.header-top').css('left', '0');
+                    $('.header-top').css('height', '200px');
+                } else {
+                    $('.header-top').css('position', 'unset');
+                }
+            });
+
+            $('.navbar .sub-menu').on("mousemove", function( event ) {
+                // $('.sub-menu::before').css('display', 'block');
+                $('.menu-list').css('display', 'flex');
+                // console.log(event);
+            });
+        });
+    });
+</script>
